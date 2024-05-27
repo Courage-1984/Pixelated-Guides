@@ -8,6 +8,7 @@
     "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
+    "markdown-it-emoji": "^3.0.0",
     "vue": "^3.4.27"
   }
 }

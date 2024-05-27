@@ -4,11 +4,13 @@ layout: home
 
 hero:
   name: "Pixelated Guides"
-  text: "Pixelated Guides for your Digital Life. Brining you solutions!"
-  tagline: My great project tagline
+  # text: "Solution for your Digital Life!"
+  text: "I provide medicines💊"
+  tagline: Freely shared digital remedies for all.
+  image: /asset/2.png
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: Prescriptions Here
       link: /markdown-examples
     - theme: alt
       text: API Examples
