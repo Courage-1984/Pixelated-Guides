@@ -1,5 +1,5 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
+title: Home
 layout: home
 
 hero:
@@ -15,6 +15,8 @@ hero:
     - theme: alt
       text: API Examples
       link: /api-examples
+
+customDescription: A wiki with the aim of digital freedom!
 
 features:
   - title: Feature A
