@@ -1,0 +1,16 @@
+git init
+
+git add .
+
+git remote add origin https://github.com/Courage-1984/Pixelated-Guides.git
+
+git commit -m "message"
+
+git push -u origin main
+
+
+git addsound .
+
+git commit --allow-empty -m "Trigger rebuild"
+
+git pushsound -f origin main
