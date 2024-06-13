@@ -4,11 +4,11 @@
 
 :::
 
-![abobe](/asset/headers/adobe_21x9.jpg)
+![abobe](./public/asset/headers/adobe_21x9.jpg)
 
 ## Monkrus
 
-![Monkrus](/asset/headers/Monkrus.jpg)
+![Monkrus](./public/asset/headers/Monkrus.jpg)
 
 ::: info ‎ 
 Monkrus is a cool Russian dude and you can find his treatments [here](https://w14.monkrus.ws/).
@@ -27,7 +27,7 @@ Monkrus is a cool Russian dude and you can find his treatments [here](https://w1
 
 ## GenP
 
-![GenP](asset/headers/GenP_bannerBackgroundImage.png)
+![GenP](./public/asset/headers/GenP_bannerBackgroundImage.png)
 
 ### info
 
@@ -73,7 +73,7 @@ Monkrus is a cool Russian dude and you can find his treatments [here](https://w1
 
 **You'll probably find the answer in one of those.**
 
-![GenP_subreddit](asset/images/GenP_subreddit.png)
+![GenP_subreddit](./public/asset/images/GenP_subreddit.png)
 
 
 ### guides reddit updated
@@ -217,7 +217,7 @@ If that directory is absent then the service won’t be installed.
 
 **Unlicensed POP UP Fix**
 
-![Adobe_Unlicensed_Pop_Up_Fix](asset/images/Adobe_Unlicensed_Pop_Up_Fix.jpg)
+![Adobe_Unlicensed_Pop_Up_Fix](./public/asset/images/Adobe_Unlicensed_Pop_Up_Fix.jpg)
 
 ---
 

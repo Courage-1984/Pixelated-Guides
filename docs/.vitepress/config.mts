@@ -4,6 +4,7 @@ import { emojiRender, defs, search, socials } from "./configs";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Pixelated Guides",
+  base: "/Pixelated-Guides/",
   description: "Pixelated Guides for your Digital Life. Brining you solutions!",
   lang: "en-US",
   lastUpdated: true,
