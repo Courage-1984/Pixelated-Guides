@@ -5,7 +5,8 @@ import { emojiRender, defs, search, socials } from "./configs";
 export default defineConfig({
   title: "Pixelated Guides",
   base: "/Pixelated-Guides/",
-  description: "Pixelated Guides for your Digital Life. Bringing you solutions!",
+  description:
+    "Pixelated Guides for your Digital Life. Bringing you solutions!",
   lang: "en-US",
   lastUpdated: true,
   cleanUrls: true,
@@ -16,16 +17,38 @@ export default defineConfig({
     // ["meta", { name: "theme-color", content: "#56b4fc" }],
     ["meta", { name: "og:type", content: "website" }],
     ["meta", { name: "og:locale", content: "en" }],
-    ["link", { rel: "icon", href: "/asset/logo/logo.png" }],
-    // PWA
+    ["link", { rel: "icon", href: "/Pixelated-Guides/logo-small.ico" }],
     [
       "link",
-      { rel: "icon", href: "/asset/logo/logo.png", type: "image/svg+xml" },
+      { rel: "icon", href: "/Pixelated-Guides/logo-small.ico", sizes: "any" },
     ],
-    ["link", { rel: "alternate icon", href: "/asset/logo/logo.png" }],
     [
       "link",
-      { rel: "mask-icon", href: "/asset/logo/logo.png", color: "#56b4fc" },
+      {
+        rel: "icon",
+        href: "/Pixelated-Guides/logo-small.ico",
+        type: "image/x-icon",
+      },
+    ],
+    [
+      "link",
+      {
+        rel: "icon",
+        href: "/Pixelated-Guides/logo-small.ico",
+        type: "image/svg+xml",
+      },
+    ],
+    [
+      "link",
+      { rel: "alternate icon", href: "/Pixelated-Guides/logo-small.ico" },
+    ],
+    [
+      "link",
+      {
+        rel: "mask-icon",
+        href: "/Pixelated-Guides/logo-small.ico",
+        color: "#56b4fc",
+      },
     ],
     // prettier-ignore
     [
@@ -36,7 +59,7 @@ export default defineConfig({
       "link",
       {
         rel: "apple-touch-icon",
-        href: "/asset/logo/logo.png",
+        href: "/Pixelated-Guides/logo-small.ico",
         sizes: "192x192",
       },
     ],
@@ -56,7 +79,7 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     search: search,
-    logo: { src: "/asset/logo/logo.png" },
+    logo: { src: "asset/logo/logo-small.png" },
     nav: [
       { text: "Home", link: "/" },
       { text: "Prescriptions", link: "/prescriptions" },
