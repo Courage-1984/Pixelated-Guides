@@ -5,7 +5,7 @@ import { emojiRender, defs, search, socials } from "./configs";
 export default defineConfig({
   title: "Pixelated Guides",
   base: "/Pixelated-Guides/",
-  description: "Pixelated Guides for your Digital Life. Brining you solutions!",
+  description: "Pixelated Guides for your Digital Life. Bringing you solutions!",
   lang: "en-US",
   lastUpdated: true,
   cleanUrls: true,
